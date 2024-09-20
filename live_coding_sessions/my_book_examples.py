@@ -54,22 +54,22 @@
 #     print("*", end="")
 #   print()  # Move to a new line after each row of asterisks
 
-row = 5
-for i in range(1, row +1):
-  for j in range(1, i + 1):
-    print( "*", end= " ")
-  print()
-  row += 4
+# row = 5
+# for i in range(1, row +1):
+#   for j in range(1, i + 1):
+#     print( "*", end= " ")
+#   print()
+#   row += 4
 
-# size = int(input("Enter the size of the pattern:."))
-# if size <= 0:
-#     print("please enter a positive inter.")
+size = int(input("Enter the size of the pattern:."))
+if size <= 0:
+    print("please enter a positive inter.")
     
 
-# row = 0
-# while row < size:
+row = 0
+while row < size:
 
-#     for _ in range(size):
-#         print("*", end="")
-#     print()
-#     row += 1
+    for _ in range(size):
+        print("*", end="")
+    print()
+    row += 1
